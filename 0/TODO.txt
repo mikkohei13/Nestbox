@@ -1,0 +1,13 @@
+TODO
+====
+
+MUST HAVE
+Crontab: clear temp files
+
+SHOULD HAVE
+Better handling of links on tweets. Now ” after url breaks the link.
+List of archived hashtags (with date ranges)
+
+NICE TO HAVE
+
+

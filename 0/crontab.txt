@@ -1,0 +1,5 @@
+
+Example of a crontab which fetches new entries every 10 minutes:
+
+
+*/10 * * * * /usr/bin/wget [SERVER]/index.php/nestboxdb/fetch/[HASHTAG] > /dev/null 2>&1
