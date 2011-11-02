@@ -3,6 +3,9 @@ user_guide/*
 .DS_Store
 Thumbs.db
 application/cache/*
-application/*.html
 application/errors*
 application/config*
+index.php
+license.txt
+application/.htaccess
+application*.html
