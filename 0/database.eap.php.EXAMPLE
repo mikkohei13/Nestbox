@@ -1,0 +1,12 @@
+<?php
+
+// This should go into a directory named "secure", outside of the Web server's root folder
+
+$setDB = "database name";
+$setCollection = "collection name";
+$setUser = "username";
+$setPassword = "password";
+$setServer = "server";
+$setPort = "27747";
+
+?>
