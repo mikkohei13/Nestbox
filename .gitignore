@@ -1,0 +1,6 @@
+system/*
+user_guide/*
+.DS_Store
+Thumbs.db
+application/cache/*
+application/*.html
