@@ -4,3 +4,5 @@ user_guide/*
 Thumbs.db
 application/cache/*
 application/*.html
+application/errors*
+application/config*
