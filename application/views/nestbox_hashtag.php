@@ -14,7 +14,7 @@ header('Content-Type: text/html; charset=utf-8');
 
 echo "<h1>Archive of <a href=\"https://twitter.com/#!/search/%23" . $hashtag . "\">#$hashtag</a> tweets</h1>";
 
-echo "<p id=\"info\">Updated periodically. <a href=\"https://twitter.com/#!/search/%23" . $hashtag . "\">Most recent tweets on Twitter</a>. See also <a href=\"http://twapperkeeper.com/hashtag/tdwg\">#tdwg @ Twapperkeeper</a> &#8226; <a href=\"" . site_url("nestbox/authors") . "/" . $hashtag . "\">Top tweeters</a></p>";
+echo "<p id=\"info\">Updated periodically. <a href=\"https://twitter.com/#!/search/%23" . $hashtag . "\">Most recent tweets on Twitter</a>. &#8226; <a href=\"" . site_url("nestbox/authors") . "/" . $hashtag . "\">Top tweeters</a></p>";
 
 // echo "<pre>"; print_r ($data); // DEBUG 
 
@@ -77,6 +77,8 @@ echo "</table>\n\n";
 	*/
 
 ?>
+
+<p><a href="https://github.com/mikkohei13/Nestbox">Nestbox is open source and available on GitHub</a></p>
 
 </body>
 </html>

@@ -9,9 +9,16 @@ class Nestboxdb extends CI_Controller {
 	TODO:
 	- Handling Twitter errors (http error codes?)
 	*/
-	public function fetch($hashtag)
+	public function fetch($hashtag, $tweetCount = 30)
 	{
-		$tweetCount = 30; // How many tweets to retrieve
+		if (!is_numeric($tweetCount))
+		{
+			exit("tweetCount must be numeric.");
+		}
+		elseif ($tweetCount > 100 || $tweetCount < 1)
+		{
+			$tweetCount = 30;
+		}
 
 		// -----------------------------------------------------------------------------------
 			
