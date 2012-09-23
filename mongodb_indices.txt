@@ -1,0 +1,4 @@
+
+MongoDB indices
+
+db.tweets.ensureIndex({timestamp: -1})
